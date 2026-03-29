@@ -1,0 +1,36 @@
+{
+  "name": "koishi-plugin-wolpc",
+  "version": "1.2.0",
+  "description": "Koishi plugin for Wake-on-LAN (WOL) - 网络唤醒插件",
+  "main": "lib/src/index.js",
+  "types": "lib/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "wol": "^1.0.0"
+  },
+  "peerDependencies": {
+    "koishi": "^4.17.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "keywords": [
+    "koishi",
+    "plugin",
+    "wol",
+    "wake-on-lan",
+    "网络唤醒",
+    "远程开机"
+  ],
+  "author": "ocean之下",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/under-the-ocean/koishi-plugin-wol.git"
+  },
+  "homepage": "https://space.bilibili.com/3546571704634103"
+}
